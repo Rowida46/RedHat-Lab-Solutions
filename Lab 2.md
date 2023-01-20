@@ -2,7 +2,10 @@
 
 1-  Create a user account with the following attribute
   
-  - Command user for createing islam user  `sudo useradd -c Islam Askar  -p islam islam`
+  - Command user for createing islam user 
+   ```sh 
+   sudo useradd -c Islam Askar  -p islam islam
+   ```
 
 
 2- Create a user account with the following attribute
@@ -57,5 +60,5 @@
 
 13 - Create a folder called myteam in your home directory and change its permissions to
 read only for the owner.
+![lab2Q13](https://user-images.githubusercontent.com/52299389/213799936-27071621-8616-410c-932b-b9970dbaa9f1.png)
 
-13- 
