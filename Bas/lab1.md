@@ -59,3 +59,19 @@ awk -F: '{print $3, $1}' /etc/passwd  | sort
 ```
 
 ![Screenshot from 2023-01-21 00-37-41](https://user-images.githubusercontent.com/52299389/213818582-fbd228bb-951f-45d5-b3f4-4a3fc0a32fa9.png)
+
+
+
+8- Get the sum of all accounts id’s.
+
+
+```sh
+
+ awk -F: 'BEGIN {FS=":"}{sumusers+=$3} END {print sumusers}' /etc/passwd
+
+```
+
+
+## BOUNS 
+
+1- Get the sum of accounts id’s that has the same group.
