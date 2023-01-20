@@ -84,3 +84,8 @@ permissions and for group write and execute and execute only for the others
 (using chmod in 2 different ways)
 
   ![labLastQ](https://user-images.githubusercontent.com/52299389/213800992-eec3f620-2a36-4161-a84b-37dbef8901e2.png)
+  
+ 
+ 
+ B- What is the maximum permission a file can have, by default when it is just
+created? And what is that for directory.
