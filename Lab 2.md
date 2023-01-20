@@ -45,3 +45,12 @@
 
 8- Lock bad user account so he can't log in
 `sudo usermod -L baduser `
+
+9- Delete the supplementary group .
+
+![lab2Q10](https://user-images.githubusercontent.com/52299389/213797679-38779102-5c20-40d8-aaa6-69ac77f8a037.png)
+
+13 - Create a folder called myteam in your home directory and change its permissions to
+read only for the owner.
+
+13- 
