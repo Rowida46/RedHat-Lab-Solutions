@@ -48,7 +48,14 @@
 5- Print line from 5 to 15 from /etc/passwd
 ![Screenshot from 2023-01-21 00-30-59](https://user-images.githubusercontent.com/52299389/213818530-e5c01f79-863f-4066-9b3c-bf5b1d6ffbcb.png)
 
+6-	Change lp to mylp
 
-6- 7-	Print all information about greatest uid.
+
+![Screenshot from 2023-01-21 00-30-59](https://user-images.githubusercontent.com/52299389/213818826-de1fb5c4-bdc4-40ae-bf20-15dcc3045440.png)
+
+7-	Print all information about greatest uid.
+```sh
+awk -F: '{print $3, $1}' /etc/passwd  | sort 
+```
 
 ![Screenshot from 2023-01-21 00-37-41](https://user-images.githubusercontent.com/52299389/213818582-fbd228bb-951f-45d5-b3f4-4a3fc0a32fa9.png)
