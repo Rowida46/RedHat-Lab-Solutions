@@ -73,3 +73,8 @@ sudo chmod u=r myteam
 
 ![lab2Q13](https://user-images.githubusercontent.com/52299389/213799936-27071621-8616-410c-932b-b9970dbaa9f1.png)
 
+15- Try to access (by cd command) the folder (myteam)
+```sh
+cd myteam
+```
+result `_bash: cd: myteam: Permission denied_`
