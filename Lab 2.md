@@ -89,3 +89,4 @@ permissions and for group write and execute and execute only for the others
  
  B- What is the maximum permission a file can have, by default when it is just
 created? And what is that for directory.
+  - _The system default permission values are 777 ( rwxrwxrwx ) for folders and 666 ( rw-rw-rw- ) for files_
