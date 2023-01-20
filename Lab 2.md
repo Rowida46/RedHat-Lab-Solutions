@@ -45,6 +45,10 @@
 
 8- Lock bad user account so he can't log in
 `sudo usermod -L baduser `
+> Screen for q9 & 8
+![lab2q7:9](https://user-images.githubusercontent.com/52299389/213798269-396214e6-90f1-4df7-aff4-d9f8a9689ee7.png)
+
+
 
 9- Delete the supplementary group .
 
