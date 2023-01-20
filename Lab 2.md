@@ -25,3 +25,9 @@
   - Command used `sudo groupadd badgroup`
 
 ![lab2q4](https://user-images.githubusercontent.com/52299389/213790971-14e6bf8f-663c-4347-b613-3b33d485045a.png)
+
+
+5- Add islam user to the pgroup group as a supplementary group
+  > We can not add user to a group using _groupmod_ 
+  - Command used `sudo usermod -aG secondaryGroup islam`
+  ![lab2Q5](https://user-images.githubusercontent.com/52299389/213792160-2116518e-afed-4145-bfb2-14f1182e0187.png)
