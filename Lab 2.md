@@ -10,9 +10,10 @@
   - Command user for createing islam user  `sudo useradd -c Islam Askar  -p islam islam`
 
   - Command used to  change user name from dabusr to baduser 
-  ```sh
+ 
+ ```sh
   sudo usermod -l  baduser dabusr
-  ```
+```
 ![lab2Q1](https://user-images.githubusercontent.com/52299389/213787467-8cac1809-98cf-4e2d-86cb-379cd3e3a9ec.png)
 
 
