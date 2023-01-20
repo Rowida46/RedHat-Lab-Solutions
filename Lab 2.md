@@ -30,4 +30,18 @@
 5- Add islam user to the pgroup group as a supplementary group
   > We can not add user to a group using _groupmod_ 
   - Command used `sudo usermod -aG secondaryGroup islam`
+  
   ![lab2Q5](https://user-images.githubusercontent.com/52299389/213792160-2116518e-afed-4145-bfb2-14f1182e0187.png)
+
+
+6- Modify the password of islam's account to password
+  - Command Used `sudo usermod -p newpass islam` 
+  - or 
+    `su islam`
+    `su passwrd newpasswd`
+
+7 - Modify islam's account so the password expires after 30 day
+`sudo passwd --expire linuxize`
+
+8- Lock bad user account so he can't log in
+`sudo usermod -L baduser `
