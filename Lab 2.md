@@ -60,5 +60,16 @@
 
 13 - Create a folder called myteam in your home directory and change its permissions to
 read only for the owner.
+
+  - _Command Used for changing permission for the owner _ 
+```sh
+sudo chmod u=r myteam
+```
+
+  - _Command Used for showing folders & files permission details _ 
+    ```sh
+    ls -l 
+    ```
+
 ![lab2Q13](https://user-images.githubusercontent.com/52299389/213799936-27071621-8616-410c-932b-b9970dbaa9f1.png)
 
