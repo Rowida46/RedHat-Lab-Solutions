@@ -45,7 +45,9 @@
     `su passwrd newpasswd`
 
 7 - Modify islam's account so the password expires after 30 day
-`sudo passwd --expire linuxize`
+```sh 
+sudo passwd -i 30 islam
+```
 
 8- Lock bad user account so he can't log in
 `sudo usermod -L baduser `
