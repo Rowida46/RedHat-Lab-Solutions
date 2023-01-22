@@ -79,3 +79,35 @@ their output and error in 2 different files and sending them to the background.
   - ls /etc/passwd | wc –l
  
 ![image](https://user-images.githubusercontent.com/52299389/213925418-08080140-bce0-4fb0-abbf-bdc9fde6137d.png)
+
+ <HR>
+  
+10 - Stop the last command
+  
+  ![image](https://user-images.githubusercontent.com/52299389/213925737-84c7fa56-9584-4f52-90df-fbefb5b6dcf3.png)
+  
+<HR>
+  
+11- Resume the last command in the background , 12- Issue the jobs command and see its output.
+![image](https://user-images.githubusercontent.com/52299389/213925798-dddd932b-d73e-4ea6-a663-8f29e46bc211.png)
+  
+ 
+  <HR>
+ 12- Send the sleep command to the foreground and send it again to the background
+    
+    ![image](https://user-images.githubusercontent.com/52299389/213925883-0ed86922-a9e3-48fd-9b37-dbeac0a42ef4.png)
+    
+<HR>
+  
+  
+<HR>
+
+ 15- Kll the sleep command.
+  ![image](https://user-images.githubusercontent.com/52299389/213925983-2c0d2609-b9b5-4ab9-8aba-03c438044ee4.png)
+
+  
+  <hr>
+  
+  16- display your processes only
+![image](https://user-images.githubusercontent.com/52299389/213926023-403061e5-1a20-4989-874f-df468271cd6b.png)
+
