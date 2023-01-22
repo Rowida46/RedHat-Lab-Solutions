@@ -72,3 +72,10 @@ their output and error in 2 different files and sending them to the background.
   head -10 /etc/passwd | tail +7
   ```
 ![image](https://user-images.githubusercontent.com/52299389/213925225-6b560c7f-cec6-4f78-9515-820f13d620d6.png)
+
+9. What happens if you execute:
+  - cat filename1 | cat filename2
+  - ls | rm
+  - ls /etc/passwd | wc –l
+ 
+![image](https://user-images.githubusercontent.com/52299389/213925418-08080140-bce0-4fb0-abbf-bdc9fde6137d.png)
