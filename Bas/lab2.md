@@ -40,3 +40,35 @@ echo "Hello $username"
     - Otherwise, it change directory to the given directory.
 
 ![image](https://user-images.githubusercontent.com/52299389/213916735-3f05da3a-96f7-47db-abc2-54358448e8e0.png)
+
+![image](https://user-images.githubusercontent.com/52299389/213916854-aacbf6cf-ff95-463d-84ec-8d248bafcaf7.png)
+
+5- Create a script called myls where:
+It lists the current directory, if it is called without arguments.
+Otherwise, it lists the given directory.
+
+command used 
+```sh
+#!/usr/bin/bash
+
+
+#It lists the current directory, if it is called without arguments.
+#Otherwise, it lists the given directory.
+
+
+echo $1
+
+if [  -z "$1" ]
+then
+echo "to the home dir "
+ls
+
+else
+echo "to ur given dir"
+ls $1
+fi
+
+```
+![image](https://user-images.githubusercontent.com/52299389/213917008-fa037506-98dd-4ad0-a1de-b0cd45286a34.png)
+
+![image](https://user-images.githubusercontent.com/52299389/213916978-63162db6-631c-41e1-a82d-03ebbb15fc15.png)
