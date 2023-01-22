@@ -30,6 +30,10 @@ cat /etc/passwd | cut -d ":" -f 1 | egrep "^g"
 4- Get the logins name and full names (comment) of logins starts with “g”
   - _using `who` commands_
   
+  ```sh
+  $ who | cut -d' ' -f1 | sort | uniq
+
+  ```
 ![image](https://user-images.githubusercontent.com/52299389/213922756-aef062a7-5cef-42a6-b7e6-6b4745811c3d.png)
 
 <hr>
@@ -54,3 +58,17 @@ their output and error in 2 different files and sending them to the background.
 <hr>
 
 7- Display the number of users who is logged now to the system
+![image](https://user-images.githubusercontent.com/52299389/213924591-4649d577-4ae4-41a0-9001-e86cddf34602.png)
+
+<HR>
+ 
+8 - Display lines 7 to line 10 of /etc/passwd file
+  
+  ```sh
+  sed -n '7,10p' /etc/passwd 
+  ```
+  _OR_
+  ```sh
+  head -10 /etc/passwd | tail +7
+  ```
+![image](https://user-images.githubusercontent.com/52299389/213925225-6b560c7f-cec6-4f78-9515-820f13d620d6.png)
