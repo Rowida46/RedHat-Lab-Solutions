@@ -1,3 +1,13 @@
+1- ompress a file by compress, gzip, zip commands and decompress it again. State the
+differences between compress and gzip commands.
+
+![image](https://user-images.githubusercontent.com/52299389/213937207-4d702862-d66f-4df1-ba4b-8fe91beb1861.png)
+
+
+2- What is the command used to view the content of a compressed file.
+
+3. Backup /etc directory using tar utility
+
 
 ![Screenshot from 2023-01-18 14-36-22](https://user-images.githubusercontent.com/52299389/213935979-902ecc54-a250-450b-acbc-ca49f2fba988.png)
 ![Screenshot from 2023-01-18 14-36-31](https://user-images.githubusercontent.com/52299389/213935982-ada0a432-0c4d-481f-ba12-6f01ef4d1287.png)
