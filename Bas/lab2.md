@@ -34,9 +34,10 @@ echo "Hello $username"
 
 ![image](https://user-images.githubusercontent.com/52299389/213915590-b4b70e50-2b2e-4168-b2c5-af9cd1afa675.png)
 
-
+--
 
 4- Create a script called mycd where:
+
   - It changed directory to the user home directory, if it is called without arguments.
   - Otherwise, it change directory to the given directory.
 
@@ -44,6 +45,8 @@ echo "Hello $username"
 
 ![image](https://user-images.githubusercontent.com/52299389/213916854-aacbf6cf-ff95-463d-84ec-8d248bafcaf7.png)
 
+
+--
 5- Create a script called myls where:
   - It lists the current directory, if it is called without arguments.
   - Otherwise, it lists the given directory.
