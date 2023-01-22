@@ -10,6 +10,7 @@ echo "Hello $username"
 
 ![image](https://user-images.githubusercontent.com/52299389/213916040-67e89cd1-99a5-4a2d-916a-fc0d7eb01488.png)
 
+<hr>
 
 2- Create a script called s1 that calls another script s2 where:
   - In s1 there is a variable called x, it's value 5
@@ -18,6 +19,7 @@ echo "Hello $username"
 
 ![image](https://user-images.githubusercontent.com/52299389/213915921-8c9fe216-15c5-48ff-9bdf-9847b2426532.png)
 
+<hr>
 
 3- Create a script called mycp where:
   - It copies a file to another
@@ -34,7 +36,7 @@ echo "Hello $username"
 
 ![image](https://user-images.githubusercontent.com/52299389/213915590-b4b70e50-2b2e-4168-b2c5-af9cd1afa675.png)
 
---
+<hr>
 
 4- Create a script called mycd where:
 
@@ -46,7 +48,8 @@ echo "Hello $username"
 ![image](https://user-images.githubusercontent.com/52299389/213916854-aacbf6cf-ff95-463d-84ec-8d248bafcaf7.png)
 
 
---
+<hr>
+
 5- Create a script called myls where:
   - It lists the current directory, if it is called without arguments.
   - Otherwise, it lists the given directory.
@@ -76,3 +79,5 @@ fi
 ![image](https://user-images.githubusercontent.com/52299389/213917008-fa037506-98dd-4ad0-a1de-b0cd45286a34.png)
 
 ![image](https://user-images.githubusercontent.com/52299389/213916978-63162db6-631c-41e1-a82d-03ebbb15fc15.png)
+
+<hr>
