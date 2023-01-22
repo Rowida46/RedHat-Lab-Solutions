@@ -48,3 +48,9 @@ cat /etc/passwd | cut -d ":" -f 1 | egrep "^g"
 their output and error in 2 different files and sending them to the background.
 
 ![image](https://user-images.githubusercontent.com/52299389/213924299-dcde1138-ffaa-45eb-935e-6780fc3d7569.png)
+
+
+
+<hr>
+
+7- Display the number of users who is logged now to the system
