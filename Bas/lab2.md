@@ -13,6 +13,7 @@ echo "Hello $username"
 
 2- Create a script called s1 that calls another script s2 where:
     - In s1 there is a variable called x, it's value 5
+ 
     - Try to print the value of x in s2 by two different ways.
 
 ![image](https://user-images.githubusercontent.com/52299389/213915921-8c9fe216-15c5-48ff-9bdf-9847b2426532.png)
