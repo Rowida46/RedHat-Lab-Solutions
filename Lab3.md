@@ -34,6 +34,8 @@ echo $SHELL
 
 8- State the initialization files of: sh, ksh, bash
 
+9- Edit in your profile to display date at login and change your prompt permanently.
+![image](https://user-images.githubusercontent.com/52299389/213910103-17941538-330f-46ac-bd63-4e6bf9ffdda0.png)
 
 
 10 - Execute the following command :
