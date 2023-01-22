@@ -39,10 +39,9 @@ echo $SHELL
 10 - Execute the following command :
  - echo \ then press enter
  - _What is the purpose of \ ?_ : 
-  - It works as a scape character that goning to ignore the enter
- 
- - Notice the prompt ”>"
-” what is that? and how can you change it from “>” to “:”
+    - It works as a scape character that goning to ignore the enter
+
+ - Notice the prompt `>` what is that? and how can you change it from “>” to “:”
 
 ![alt](https://user-images.githubusercontent.com/52299389/213909862-941c5a59-54ce-406a-b2b0-3e8bce8cd362.png)
  
