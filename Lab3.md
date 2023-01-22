@@ -20,4 +20,31 @@
 
 ```sh
 echo $PATH
-```![lab3Q6](https://user-images.githubusercontent.com/52299389/213909075-0601bcf1-020b-4221-ab0f-2bf4010d7a0b.png)
+```
+
+![lab3Q6](https://user-images.githubusercontent.com/52299389/213909075-0601bcf1-020b-4221-ab0f-2bf4010d7a0b.png)
+
+
+7- Display your current shell name.
+
+```SH
+echo $SHELL
+```
+
+
+8- State the initialization files of: sh, ksh, bash
+
+
+
+10 - Execute the following command :
+echo \ then press enter
+What is the purpose of \ ?
+Notice the prompt ”>” what is that? and how can you change it from “>” to “:”
+![lab3Q10](https://user-images.githubusercontent.com/52299389/213909262-43df3df7-bb37-4950-83ca-6206e697ea1b.png)
+
+
+
+11- Create a Bash shell alias named ls for the “ls –l” command
+
+![lab3Q11](https://user-images.githubusercontent.com/52299389/213909434-77f7677a-a502-4048-9068-c9c28c34ad15.png)
+
