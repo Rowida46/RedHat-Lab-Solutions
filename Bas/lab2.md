@@ -33,3 +33,10 @@ echo "Hello $username"
 
 ![image](https://user-images.githubusercontent.com/52299389/213915590-b4b70e50-2b2e-4168-b2c5-af9cd1afa675.png)
 
+
+
+4- Create a script called mycd where:
+    - It changed directory to the user home directory, if it is called without arguments.
+    - Otherwise, it change directory to the given directory.
+
+![image](https://user-images.githubusercontent.com/52299389/213916735-3f05da3a-96f7-47db-abc2-54358448e8e0.png)
