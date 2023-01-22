@@ -1,3 +1,21 @@
+1-  Create a script that asks for user name then send a greeting to him.
+_Command used_
+
+```sh
+#!/usr/bin/bash
+
+read username
+echo "Hello $username"
+```
+
+![image](https://user-images.githubusercontent.com/52299389/213916040-67e89cd1-99a5-4a2d-916a-fc0d7eb01488.png)
+
+
+2- Create a script called s1 that calls another script s2 where:
+    - In s1 there is a variable called x, it's value 5
+    - Try to print the value of x in s2 by two different ways.
+
+![image](https://user-images.githubusercontent.com/52299389/213915921-8c9fe216-15c5-48ff-9bdf-9847b2426532.png)
 
 
 3- Create a script called mycp where:
