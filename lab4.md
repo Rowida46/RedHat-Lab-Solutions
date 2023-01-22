@@ -37,3 +37,14 @@ cat /etc/passwd | cut -d ":" -f 1 | egrep "^g"
 5- Save the output of the last command sorted by their full names in a file.
 
 ![image](https://user-images.githubusercontent.com/52299389/213923177-9524ed2b-3ad8-48c8-b47b-cb898b0e5d9b.png)
+
+6- Write two commands: 
+  - first: to search for all files on the system that named
+.bash_profile. 
+
+![image](https://user-images.githubusercontent.com/52299389/213924371-09ddcfbd-6bb6-4591-937e-2582fe0fb405.png)
+
+  - Second: sorts the output of ls command on / recursively, Saving
+their output and error in 2 different files and sending them to the background.
+
+![image](https://user-images.githubusercontent.com/52299389/213924299-dcde1138-ffaa-45eb-935e-6780fc3d7569.png)
