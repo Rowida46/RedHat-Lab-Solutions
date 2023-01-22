@@ -37,16 +37,16 @@ echo "Hello $username"
 
 
 4- Create a script called mycd where:
-    - It changed directory to the user home directory, if it is called without arguments.
-    - Otherwise, it change directory to the given directory.
+  - It changed directory to the user home directory, if it is called without arguments.
+  - Otherwise, it change directory to the given directory.
 
 ![image](https://user-images.githubusercontent.com/52299389/213916735-3f05da3a-96f7-47db-abc2-54358448e8e0.png)
 
 ![image](https://user-images.githubusercontent.com/52299389/213916854-aacbf6cf-ff95-463d-84ec-8d248bafcaf7.png)
 
 5- Create a script called myls where:
-It lists the current directory, if it is called without arguments.
-Otherwise, it lists the given directory.
+  - It lists the current directory, if it is called without arguments.
+  - Otherwise, it lists the given directory.
 
 command used 
 ```sh
