@@ -130,7 +130,9 @@ fi
 ![image](https://user-images.githubusercontent.com/52299389/214091921-1e64ceda-5c64-4b14-a803-acfa6940c06a.png)
 
 
-7- 
+7- Create a script called mytest where:
+  a. It check the type of the given argument (file/directory)
+  b. It check the permissions of the given argument (read/write/execute
 
 ```sh
 #!/usr/bin/bash
@@ -176,10 +178,13 @@ fi
 
 
 
-7- 
 
-
-8- 
+8- Create a script called myinfo where:
+  a. It asks the user about his/her logname.
+  b. It print full info about files and directories in his/her home directory
+  c. Copy his/her files and directories as much as you can in /tmp directory.
+  d. Gets his current processes status
+  
 ![Screenshot from 2023-01-23 18-23-02](https://user-images.githubusercontent.com/52299389/214097925-426e0d1a-9184-41c5-b1ac-31edeb4de479.png)
 
 
