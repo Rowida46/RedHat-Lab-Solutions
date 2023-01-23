@@ -72,6 +72,27 @@ awk -F: '{print $3, $1}' /etc/passwd  | sort
 ```
 
 
-## BOUNS 
+```sh
+#!/usr/bin/bash
 
-1- Get the sum of accounts id’s that has the same group.
+
+echo "your log name : "
+
+read usrname 
+
+
+# validate user exists
+
+mkdir tmp
+if cat /etc/passwd | grep $usrname  > /dev/null  
+then 
+    echo "logged in"
+    # extract user home dir
+    homeDir = grep ^$usrname  /etc/passwd | cut -d: -f6
+    echo $homeDir
+    ls $homeDir 
+    cp -r $homeDir tmp
+    ps -u $usrname
+
+fi
+```
