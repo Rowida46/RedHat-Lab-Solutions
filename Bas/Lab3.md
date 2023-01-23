@@ -50,3 +50,14 @@ case $testch in
 esac
   ```
 ![image](https://user-images.githubusercontent.com/52299389/214041647-5e3b009f-5332-4f84-b495-11943d55f077.png)
+
+
+<hr>
+
+
+3. Write a script called mychmod using for utility to give execute permission to all files and
+directories in your home directory.
+
+```sh
+chmod -R 777 *
+```
