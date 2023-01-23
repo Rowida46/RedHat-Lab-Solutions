@@ -81,3 +81,50 @@ fi
 ![image](https://user-images.githubusercontent.com/52299389/213916978-63162db6-631c-41e1-a82d-03ebbb15fc15.png)
 
 <hr>
+
+
+6- 
+
+```sh
+
+#!/usr/bin/bash
+
+echo $1
+
+
+# check first if it's not with an empty argument..
+
+if [  -z "$1" ]
+then
+    echo "to the home dir "
+
+else  #not empty then check argument 
+
+if [ $1 = '-l' ]
+then
+    echo "-l : lst details"
+
+elif [ $1  = '-a' ]
+then
+
+    echo "-a: list all entries including the hiding files."
+    
+elif [ $1 = '-r' ]
+then
+
+    echo "–R: recursively list subdirectorie"
+
+elif [ $1 = '-i ' ]
+then 
+    echo "–i: print inode number"
+
+elif [ $1 = '-d' ]
+then 
+    echo "-d: an argument is a directory, list only its name"
+
+else 
+    echo "not provided"
+fi
+fi
+```
+![image](https://user-images.githubusercontent.com/52299389/214091921-1e64ceda-5c64-4b14-a803-acfa6940c06a.png)
