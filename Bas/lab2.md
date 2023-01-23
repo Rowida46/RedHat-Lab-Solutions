@@ -172,5 +172,14 @@ else
     fi
 fi
 ```
+![Screenshot from 2023-01-23 18-38-57](https://user-images.githubusercontent.com/52299389/214097750-3c98529a-29c7-4e19-beef-32fa2878769b.png)
 
-file:///home/rowida/Pictures/Screenshots/Screenshot%20from%202023-01-23%2018-38-57.png![image](https://user-images.githubusercontent.com/52299389/214097541-a0865fb7-0aa9-4567-8935-bd75fc09fbdd.png)
+
+
+7- 
+
+
+8- 
+![Screenshot from 2023-01-23 18-23-02](https://user-images.githubusercontent.com/52299389/214097925-426e0d1a-9184-41c5-b1ac-31edeb4de479.png)
+
+
