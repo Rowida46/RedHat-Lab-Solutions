@@ -83,7 +83,7 @@ fi
 <hr>
 
 
-6- 
+6- Enhance the above script to support the following options individually:
 
 ```sh
 
