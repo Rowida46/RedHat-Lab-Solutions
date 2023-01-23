@@ -4,7 +4,7 @@ entered by a user:
     b. Lower Case.
     c. Number.
     d. Nothing.
-
+    
 ```sh
 #!/usr/bin/bash
 
@@ -61,3 +61,47 @@ directories in your home directory.
 ```sh
 chmod -R 777 *
 ```
+
+
+4- Write a scriWrite a script called mymail using for utility to send a mail to all users in the system.
+Note: write the mail body in a file called mtemplate.Write a script called mymail using for utility to send a mail to all users in the system.
+Note: write the mail body in a file called mtemplate.pt called mybackup using for utility to create a backup of only files in your
+home directory.
+
+
+```sh
+#!/usr/bin/bash
+
+#mkdir ~/tmp 
+
+
+for file in `ls ~ `
+do 
+    echo $file
+    `sudo tar -cvpzf ~/$file.tar.gz backupFile`
+done
+
+```
+Result files 
+![image](https://user-images.githubusercontent.com/52299389/214071609-861fd2c3-e88a-4770-ac9b-8572ec0b4101.png)
+
+5- Write a script called mymail using for utility to send a mail to all users in the system.
+Note: write the mail body in a file called mtemplate.
+
+```sh
+#!/usr/bin/bash
+
+#mymail.sh
+for user in `awk -F: '{print $1}' /etc/passwd`:
+do 
+    echo $user
+    mailx $user < letter
+    echo `mail sent to $user `
+done
+```
+
+![image](https://user-images.githubusercontent.com/52299389/214071295-7ace571c-d210-41a7-bb7f-5093876f5e65.png)
+
+
+6- Write a script called chkmail to check for new mails every 10 seconds. Note: mails are
+saved in /var/mail/username
