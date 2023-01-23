@@ -128,3 +128,49 @@ fi
 fi
 ```
 ![image](https://user-images.githubusercontent.com/52299389/214091921-1e64ceda-5c64-4b14-a803-acfa6940c06a.png)
+
+
+7- 
+
+```sh
+#!/usr/bin/bash
+
+if [ -f $1 ]
+then    
+    echo "working on file "
+    if [ -r $1 ] 
+    then    
+        echo "read allowed"
+    fi
+
+    if [ -w $1 ]
+    then 
+        echo "write is allowed"
+    fi
+
+    if [ -x $1 ]
+    then 
+        echo "excutable file"
+    fi 
+
+else 
+    
+    echo "working on dir "
+    if [ -r $1 ] 
+    then    
+        echo "read allowed dir"
+    fi
+
+    if [ -w $1 ]
+    then 
+        echo "write is allowed dir"
+    fi
+
+    if [ -x $1 ]
+    then 
+        echo "excutable dir -> cd is allowed"
+    fi
+fi
+```
+
+file:///home/rowida/Pictures/Screenshots/Screenshot%20from%202023-01-23%2018-38-57.png![image](https://user-images.githubusercontent.com/52299389/214097541-a0865fb7-0aa9-4567-8935-bd75fc09fbdd.png)
