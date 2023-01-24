@@ -44,9 +44,12 @@ case $testch in
 ;;
 ([A-Z] )  echo "UPPER CASE"
  ;;
+ ([a-z-A-Z]) echo "mix" 
+;;
 ([0-9]) echo "NUMBER" 
 ;;
 *) echo "other ";; 
+
 
 esac
   ```
@@ -110,6 +113,19 @@ done
 
 6- Write a script called chkmail to check for new mails every 10 seconds. Note: mails are
 saved in /var/mail/username
+
+```sh
+#!/usr/bin/bash
+
+#mymail.sh
+for user in `awk -F: '{print $1}' /etc/passwd`:
+do 
+    echo $user
+    mailx $user < letter
+    echo `mail sent to $user `
+    sleep 10
+done
+```
 
 <hr>
 
@@ -192,9 +208,7 @@ typeset -i avg
 typeset -i len
 
 read -a  arr
-
 len=${#arr[@]};
-
 
 echo $len
 for i in ${arr[@]}
@@ -211,3 +225,23 @@ echo $(( avg / len  ))
    
 11- Write a function called mysq that calculate square if its argument.
    
+ ```sh
+  
+  #!/bin/bash
+
+
+function sqrtnum() {
+    num=$1
+    echo $(($num * $num))
+}
+
+
+typeset -i num
+
+read -p "your number is : " n
+
+sqrtnum n
+
+  ```
+ ![image](https://user-images.githubusercontent.com/52299389/214441674-af3e0624-849f-4bb3-a41b-9038ad732bf0.png)
+
