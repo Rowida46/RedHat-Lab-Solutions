@@ -105,3 +105,68 @@ done
 
 6- Write a script called chkmail to check for new mails every 10 seconds. Note: mails are
 saved in /var/mail/username
+
+
+7- What is the output of the following script
+
+![image](https://user-images.githubusercontent.com/52299389/214394603-971c6a7a-25e1-493b-afe4-4fc017c9cc23.png)
+
+8- Create the following menu:
+    a. Press 1 to ls
+    b. Press 2 to ls –a
+    c. Press 3 to exit
+ 
+ ```SH
+ 
+PS3="ur choice: "
+
+
+echo  "a. Press 1 to ls"
+echo  "b. Press 2 to ls –a " 
+echo  "c. Press 3 to exit "
+
+
+
+select lstOption in  1 2 3
+do
+    case $lstOption in 
+    1 ) 
+        ls ;;
+    2 )
+        ls -a ;;
+    3 ) 
+        echo "quiting "
+        break ;;
+    esac
+done
+
+![image](https://user-images.githubusercontent.com/52299389/214406499-e817d6f4-0879-4013-9fda-829178880412.png)
+
+<hr>
+
+9- Write a script called myarr that ask a user how many elements he wants to enter in an
+array, fill the array and then print i
+
+ ```sh
+ 
+#!/bin/bash
+
+typeset -i length
+read -p "How many elements do you want to enter? : " length
+#arr=({1..$length})
+
+arr=()
+
+while [ $length -gt 0 ]
+do
+    read -p "enter your element : "  element
+    arr[$length]=$element
+    let length-=1
+
+done
+
+echo ${arr[@]}
+ ```
+ ![image](https://user-images.githubusercontent.com/52299389/214419769-9799abbf-bd4e-43f8-b813-a566bcd953d2.png)
+
+ 
