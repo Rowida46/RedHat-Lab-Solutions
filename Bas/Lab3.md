@@ -1,9 +1,11 @@
 1- Write a script called mycase, using the case utility to checks the type of character
 entered by a user:
-    a. Upper Case.
-    b. Lower Case.
-    c. Number.
-    d. Nothing.
+   
+  a. Upper Case.
+  b. Lower Case.
+  c. Number.
+  d. Nothing.
+  
     
 ```sh
 #!/usr/bin/bash
@@ -20,6 +22,7 @@ case $1 in
 
 esac
 ```
+
 ![image](https://user-images.githubusercontent.com/52299389/214041084-9c54c22d-6cea-4eea-beb9-a8aa3f2585ee.png)
 
 
@@ -27,11 +30,12 @@ esac
 
 2- Enhanced the previous script, by checking the type of string entered by a user:
 Enhanced the previous script, by checking the type of string entered by a user:
-      a. Upper Cases.
-      b. Lower Cases.
-      c. Numbers.
-      d. Mix.
-      e. Nothing.
+ a. Upper Cases.
+ b. Lower Cases.
+ c. Numbers.
+ d. Mix.
+ e. Nothing.
+ 
     
  ```sh
   
@@ -82,8 +86,10 @@ do
 done
 
 ```
+
 Result files 
 ![image](https://user-images.githubusercontent.com/52299389/214071609-861fd2c3-e88a-4770-ac9b-8572ec0b4101.png)
+
 
 5- Write a script called mymail using for utility to send a mail to all users in the system.
 Note: write the mail body in a file called mtemplate.
@@ -106,15 +112,23 @@ done
 6- Write a script called chkmail to check for new mails every 10 seconds. Note: mails are
 saved in /var/mail/username
 
+<hr>
+
 
 7- What is the output of the following script
 
 ![image](https://user-images.githubusercontent.com/52299389/214394603-971c6a7a-25e1-493b-afe4-4fc017c9cc23.png)
 
+
+
+<hr>
+
+
 8- Create the following menu:
-    a. Press 1 to ls
-    b. Press 2 to ls –a
-    c. Press 3 to exit
+ a. Press 1 to ls
+ b. Press 2 to ls –a
+ c. Press 3 to exit
+ 
  
  ```SH
  
