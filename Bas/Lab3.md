@@ -1,9 +1,10 @@
 1- Write a script called mycase, using the case utility to checks the type of character
-entered by a user.
-  - a. Upper Case
-  - b. Lower Case.
-  - c. Number.
-  - d. Nothing.
+entered by a user:
+   
+  a. Upper Case.
+  b. Lower Case.
+  c. Number.
+  d. Nothing.
   
     
 ```sh
@@ -124,7 +125,7 @@ saved in /var/mail/username
 
 
 8- Create the following menu:
- a. Press 1 to ls
+ - a. Press 1 to ls
  b. Press 2 to ls –a
  c. Press 3 to exit
  
@@ -183,4 +184,34 @@ echo ${arr[@]}
  ```
  ![image](https://user-images.githubusercontent.com/52299389/214419769-9799abbf-bd4e-43f8-b813-a566bcd953d2.png)
 
+ <hr>
  
+ 10-  Write a script called myavg that calculate average of all numbers entered by a user.
+Note: use arrays
+ 
+ ```sh
+ #!/bin/bash
+
+typeset -i avg
+typeset -i len
+
+read -a  arr
+
+len=${#arr[@]};
+
+
+echo $len
+for i in ${arr[@]}
+do 
+    let avg+=$i
+done
+
+echo $(( avg / len  ))
+
+ ```
+![image](https://user-images.githubusercontent.com/52299389/214428142-e53bb843-6804-4c25-973e-0b0fe92c1ca6.png)
+
+<HR>
+   
+11- Write a function called mysq that calculate square if its argument.
+   
