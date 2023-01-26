@@ -8,3 +8,6 @@
 
 
 - [Making menus with the select built-in](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_06.html)
+
+
+- [Validation check ](https://stackoverflow.com/questions/18282929/how-to-validate-filename-in-bash-script)
